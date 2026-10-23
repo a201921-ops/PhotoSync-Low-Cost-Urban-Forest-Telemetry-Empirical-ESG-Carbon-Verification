@@ -1,0 +1,6 @@
+## ⚙️ Operational Workflow
+
+* **Clamp:** Select a mature, sunlit leaf and clamp the airtight acrylic chamber shut.
+* **Measure:** The internal 5V micro-fan circulates boundary-layer air while the K30 NDIR sensor tracks the rate of CO2 drawdown over a 2-minutes window.
+* **Analyze:** The M5Stack Core S3 processes the gas exchange slope and calculates net photosynthetic assimilation (An in µmol CO2/m²/s).
+* **Sync:** Data is transmitted via IoT gateway to the central dashboard. If An approaches zero under sunlight, a pre-symptomatic stress alert is triggered for groundskeeping intervention.
